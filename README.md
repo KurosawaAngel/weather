@@ -5,9 +5,11 @@
 Установите зависимости используй uv (рекомендуется) или pip
 
 uv sync
+
 pip install .
 
 Запуск
 
 uv run -m weather
+
 python -m weather
