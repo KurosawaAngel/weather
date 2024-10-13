@@ -1,0 +1,13 @@
+[project]
+name = "weather"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram>=3.13.1",
+    "dataclass-rest",
+]
+
+[tool.uv.sources]
+dataclass-rest = { git = "https://github.com/reagento/dataclass-rest" }
